@@ -1,7 +1,6 @@
 ---
-name: enterprise-performance-analyzer
+name: performance-analyzer
 description: Analyze .NET code for performance issues
-version: 1.0
 ---
 
 # Performance Analyzer

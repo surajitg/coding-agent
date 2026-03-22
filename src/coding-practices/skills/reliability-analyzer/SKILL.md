@@ -1,7 +1,6 @@
 ---
-name: enterprise-reliability-analyzer
+name: reliability-analyzer
 description: Detect reliability and resilience issues
-version: 1.0
 ---
 
 # Reliability Analyzer

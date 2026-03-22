@@ -1,7 +1,6 @@
 ---
-name: enterprise-solid-score
+name: solid-score
 description: Calculate SOLID design score for a project
-version: 1.0
 ---
 
 # SOLID Score

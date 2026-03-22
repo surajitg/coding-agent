@@ -1,7 +1,6 @@
 ---
-name: enterprise-solid-analyzer
+name: solid-analyzer
 description: Analyze .NET codebase for SOLID principle violations using AST
-version: 1.0
 ---
 
 # SOLID Analyzer

@@ -1,5 +1,5 @@
 ---
-name: enterprise-nfr-review
+name: code-review
 description: Complete NFR review workflow
 ---
 

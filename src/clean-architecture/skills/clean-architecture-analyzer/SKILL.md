@@ -1,7 +1,6 @@
 ---
-name: enterprise-roslyn-clean-architecture-analyzer
+name: clean-architecture-analyzer
 description: Deep Roslyn AST analysis of .NET Clean Architecture compliance
-version: 2.0
 ---
 
 # Roslyn Clean Architecture Analyzer

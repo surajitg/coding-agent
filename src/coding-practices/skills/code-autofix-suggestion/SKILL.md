@@ -1,7 +1,6 @@
 ---
-name: enterprise-nfr-autofix
+name: code-autofix-suggestion
 description: Generate refactoring suggestions for NFR issues
-version: 1.0
 ---
 
 # NFR Autofix Suggestions

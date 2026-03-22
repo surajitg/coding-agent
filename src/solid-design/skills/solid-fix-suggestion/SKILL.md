@@ -1,7 +1,6 @@
 ---
-name: enterprise-solid-autofix
+name: solid-fix-suggestion
 description: Generate SOLID refactoring suggestions
-version: 1.0
 ---
 
 # SOLID Autofix Suggestions

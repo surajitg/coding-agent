@@ -1,7 +1,6 @@
 ---
-name: enterprise-concurrency-analyzer
+name: concurrency-analyzer
 description: Detect concurrency issues in .NET applications
-version: 1.0
 ---
 
 # Concurrency Analyzer

@@ -1,7 +1,6 @@
 ---
-name: solid-pr-review-commenter
+name: solid-pr-review
 description: Add SOLID design review comments to pull requests
-version: 1.0
 ---
 
 # SOLID PR Review
