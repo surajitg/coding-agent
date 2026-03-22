@@ -1,5 +1,5 @@
 ---
-name: enterprise-solid-review
+name: solid-design-review
 description: Full SOLID design review workflow
 ---
 
