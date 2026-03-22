@@ -1,7 +1,6 @@
 ---
-name: nfr-pr-review
+name: pr-review
 description: Add NFR review comments to pull requests
-version: 1.0
 ---
 
 # NFR Pull Request Review

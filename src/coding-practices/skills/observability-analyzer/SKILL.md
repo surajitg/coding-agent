@@ -1,7 +1,6 @@
 ---
-name: enterprise-observability-analyzer
+name: observability-analyzer
 description: Ensure proper logging and monitoring
-version: 1.0
 ---
 
 # Observability Analyzer

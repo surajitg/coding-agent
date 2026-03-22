@@ -1,7 +1,6 @@
 ---
-name: enterprise-security-analyzer
+name: security-analyzer
 description: Detect security vulnerabilities in .NET code
-version: 1.0
 ---
 
 # Security Analyzer

@@ -1,7 +1,6 @@
 ---
-name: enterprise-nfr-score
+name: code-compliance-score
 description: Calculate non-functional quality score
-version: 1.0
 ---
 
 # NFR Score

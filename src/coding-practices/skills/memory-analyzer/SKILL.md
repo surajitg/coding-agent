@@ -1,7 +1,6 @@
 ---
-name: enterprise-gc-memory-analyzer
+name: memory-analyzer
 description: Detect memory pressure and GC issues
-version: 1.0
 ---
 
 # GC Memory Analyzer
