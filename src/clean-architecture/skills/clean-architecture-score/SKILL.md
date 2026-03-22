@@ -1,7 +1,6 @@
 ---
-name: dotnet-clean-architecture-score
+name: clean-architecture-score
 description: Calculate architecture health score for .NET solutions
-version: 1.0
 ---
 
 # Clean Architecture Score

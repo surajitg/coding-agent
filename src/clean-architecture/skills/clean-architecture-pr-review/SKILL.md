@@ -1,7 +1,6 @@
 ---
-name: architecture-pr-review-commenter
+name: clean-architecture-pr-review
 description: Adds architecture review comments to pull requests
-version: 1.0
 ---
 
 # PR Architecture Reviewer

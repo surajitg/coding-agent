@@ -1,7 +1,6 @@
 ---
-name: enterprise-clean-architecture-autofix
+name: clean-architecture-fix-suggestion
 description: Generates refactoring suggestions for architecture violations
-version: 1.0
 ---
 
 # Architecture Refactoring Suggestions

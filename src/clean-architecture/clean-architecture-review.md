@@ -1,17 +1,14 @@
 ---
-name: enterprise-architecture-review
-description: Full enterprise architecture review workflow
+name: clean-architecture-review
+description: Full clean architecture review workflow
 ---
 
 # Workflow
 
-1. Run Roslyn Analyzer
-2. Generate architecture findings
-3. Generate refactoring suggestions
-4. Compute architecture score
-5. Generate dependency diagrams
-6. Comment on pull request
-7. Generate architecture badge
+1. Run /clean-architecture-analyzer
+2. run /clean-architecture-pr-review
+3. run /clean-architecture-fix-suggestion
+4. run /clean-architecture-score
 
 ---
 
@@ -22,7 +19,3 @@ Architecture Score
 Architecture Report
 
 Refactoring Suggestions
-
-Architecture Diagram
-
-PR Comments
