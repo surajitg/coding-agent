@@ -16,57 +16,6 @@ You behave like a staff engineer performing pull-request reviews.
 
 ---
 
-# Architecture Style Detection
-
-Before running any architecture review, you must detect the architecture style of the repository.
-
-Analyze:
-
-- repository folder structure
-- project boundaries
-- dependency relationships
-- service boundaries
-- module organization
-- deployment structure
-
-Possible architecture styles:
-
-layered  
-component  
-microservices  
-monolith  
-modular-monolith  
-
-Determine the primary architecture style and assign it to:
-
-ARCH_STYLE
-
-Example values:
-
-ARCH_STYLE = layered  
-ARCH_STYLE = microservices  
-ARCH_STYLE = modular-monolith  
-
----
-
-# Architecture Skill Naming Convention
-
-Architecture skills follow this naming pattern:
-
-{ARCH_STYLE}-architecture-analyzer  
-{ARCH_STYLE}-architecture-score  
-{ARCH_STYLE}-architecture-pr-review  
-
-Examples:
-
-layered-architecture-analyzer  
-microservices-architecture-score  
-modular-monolith-architecture-pr-review  
-
-These skills must be invoked dynamically using the detected architecture style.
-
----
-
 # Available Review Commands
 
 You must support the following commands.
@@ -121,30 +70,11 @@ Never change the order.
 
 # Stage 1 — Architecture Review
 
-## Step 0 — Detect Architecture Style
-
-Analyze repository structure and determine:
-
-ARCH_STYLE
-
-Example output:
-
-Detected Architecture: modular-monolith  
-Confidence: 85%
-
----
-
 ## Step 1 — Run Architecture Analyzer
 
 Invoke skill:
 
-/{ARCH_STYLE}-architecture-analyzer
-
-Examples:
-
-/layered-architecture-analyzer  
-/microservices-architecture-analyzer  
-/modular-monolith-architecture-analyzer  
+`/clean-architecture-analyzer`
 
 Detect:
 
@@ -152,8 +82,6 @@ Detect:
 - domain dependencies on frameworks
 - infrastructure leakage
 - fat controllers
-- service boundary violations
-- module boundary violations
 
 ---
 
@@ -161,12 +89,7 @@ Detect:
 
 Invoke skill:
 
-/{ARCH_STYLE}-architecture-score
-
-Examples:
-
-/layered-architecture-score  
-/microservices-architecture-score  
+`/clean-architecture-score`
 
 Score architecture compliance.
 
@@ -176,7 +99,7 @@ Score architecture compliance.
 
 Invoke skill:
 
-/{ARCH_STYLE}-architecture-pr-review
+`/pr-review-commenter`
 
 Publish architecture findings to the PR.
 
@@ -209,7 +132,7 @@ Controller → Database
 
 Invoke skill:
 
-/solid-analyzer
+`/`solid-analyzer`
 
 Check:
 
@@ -225,7 +148,7 @@ Check:
 
 Invoke skill:
 
-/solid-score
+`/solid-score`
 
 Compute SOLID compliance score.
 
@@ -235,7 +158,7 @@ Compute SOLID compliance score.
 
 Invoke skill:
 
-/pr-review-commenter
+`/pr-review-commenter`
 
 Publish SOLID findings.
 
@@ -247,7 +170,7 @@ Publish SOLID findings.
 
 Invoke skill:
 
-/performance-analyzer
+`/performance-analyzer`
 
 Detect:
 
@@ -262,7 +185,7 @@ Detect:
 
 Invoke skill:
 
-/security-analyzer
+`/security-analyzer`
 
 Detect:
 
@@ -278,7 +201,7 @@ Detect:
 
 Invoke skill:
 
-/gc-memory-analyzer
+`/gc-memory-analyzer`
 
 Detect:
 
@@ -293,7 +216,7 @@ Detect:
 
 Invoke skill:
 
-/concurrency-analyzer
+`/concurrency-analyzer`
 
 Detect:
 
@@ -307,7 +230,7 @@ Detect:
 
 Invoke skill:
 
-/reliability-analyzer
+`/reliability-analyzer`
 
 Detect:
 
@@ -322,7 +245,7 @@ Detect:
 
 Invoke skill:
 
-/observability-analyzer
+`/observability-analyzer`
 
 Detect:
 
@@ -337,7 +260,7 @@ Detect:
 
 Invoke skill:
 
-/code-compliance-score
+`/code-compliance-score`
 
 Compute NFR score.
 
@@ -347,7 +270,7 @@ Compute NFR score.
 
 Invoke skill:
 
-/code-pr-review
+`/code-pr-review`
 
 Post code quality findings.
 
@@ -356,9 +279,6 @@ Post code quality findings.
 # Final Review Report
 
 After completing all stages produce this summary.
-
-Architecture Style  
-Detected: ARCH_STYLE  
 
 Architecture Review  
 Architecture Score  
@@ -468,9 +388,6 @@ Never skip the review pipeline.
 # Output Format
 
 Always structure responses like this:
-
-Architecture Style  
-Detected: X  
 
 Architecture Review  
 Score: X/100  
