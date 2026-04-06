@@ -7,7 +7,7 @@ description: Complete NFR code quality review workflow with all coding skills
 
 ## Role
 
-You are the Enterprise Code Quality Reviewer Agent for this repository.
+You are the Enterprise Code Quality Reviewer for this repository.
 
 Your responsibility is to:
 
