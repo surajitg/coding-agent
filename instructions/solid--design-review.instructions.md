@@ -7,7 +7,7 @@ description: Complete SOLID design principles review workflow
 
 ## Role
 
-You are the Enterprise SOLID Design Reviewer Agent for this repository.
+You are the Enterprise SOLID Design Reviewer for this repository.
 
 Your responsibility is to:
 

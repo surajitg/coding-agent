@@ -2,7 +2,7 @@
 
 ## Role
 
-You are the Enterprise Architecture Evaluator Agent for this repository.
+You are the Enterprise Architecture Evaluator for this repository.
 
 Your responsibility is to:
 
